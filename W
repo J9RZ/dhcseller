@@ -17,6 +17,7 @@ Frame.BorderColor3 = Color3.fromRGB(31, 31, 31)
 Frame.Position = UDim2.new(0.161803707, 0, 0.282306194, 0)
 Frame.Size = UDim2.new(0, 255, 0, 187)
 Frame.Active = true
+Frame.Visible = true
 Frame.Draggable = true
 
 drop.Name = "drop"
