@@ -183,21 +183,6 @@ Flyx.MouseButton1Down:connect(function()
 	start()
 end)
 
-Bat.Name = "Bat"
-Bat.Parent = Main
-Bat.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Bat.Position = UDim2.new(0.279123336, 0, 0.0778947398, 0)
-Bat.Size = UDim2.new(0, 169, 0, 50)
-Bat.Font = Enum.Font.Cartoon
-Bat.Text = "Super Bat"
-Bat.TextColor3 = Color3.fromRGB(255, 255, 255)
-Bat.TextScaled = true
-Bat.TextSize = 14.000
-Bat.TextWrapped = true
-Bat.MouseButton1Down:connect(function()
-	game.Players.LocalPlayer.Backpack["[Bat]"].Handle.Size = Vector3.new(50, 50, 50)
-end)
-
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 TextLabel.BorderColor3 = Color3.fromRGB(31, 31, 31)
